@@ -1,0 +1,38 @@
+.body_background {
+    background-image:url("https://image.freepik.com/free-vector/white-canvas-background_1053-239.jpg");
+        background-position: center;
+        background-size: cover;
+      }
+      body{
+        cursor: pointer;
+      }
+      .paint_text
+      {
+       font-family: 'Turret Road', cursive;
+      background-color: red;
+      background-image: linear-gradient(to bottom right, purple, orange);
+      background-size: 100%;
+        font-size: 40px;
+        background-repeat: repeat;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent; 
+      -moz-background-clip: text;
+      -moz-text-fill-color: transparent;
+      }
+      #myCanvas
+      {
+          border-width:10px;
+          background-color: white; 
+          border-style:ridge;
+      }
+      button {
+        background-color: #4CAF50;
+        border: none;
+        color: white;
+        padding: 10px 42px;
+        font-size: 16px;
+      }
+      input
+      {
+        margin-right: 20px;
+      }
